@@ -1,0 +1,36 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Member Dashboard - GYM Management System</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Member Dashboard</h1>
+    <button id="logout">Logout</button>
+  </header>
+  <main>
+    <section>
+      <h2>Welcome, <span id="member-name">Member</span></h2>
+    </section>
+    <section>
+      <h2>Your Bills</h2>
+      <div id="bills-list">
+        <!-- Bills will be dynamically populated here -->
+      </div>
+      <button id="refresh-bills">Refresh Bills</button>
+    </section>
+    <section>
+      <h2>Notifications</h2>
+      <div id="notifications-list">
+        <!-- Notifications will be dynamically populated here -->
+      </div>
+    </section>
+  </main>
+  <script type="module" src="js/member.js"></script>
+</body>
+</html>
+```

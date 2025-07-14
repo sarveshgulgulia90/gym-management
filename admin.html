@@ -1,0 +1,29 @@
+<!-- admin.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Admin Dashboard</h1>
+    <button id="logout">Logout</button>
+  </header>
+  <main>
+    <section>
+      <h2>Add Member</h2>
+      <form id="add-member-form">
+        <input type="text" id="member-name" placeholder="Name" required>
+        <input type="email" id="member-email" placeholder="Email" required>
+        <input type="text" id="fee-package" placeholder="Fee Package" required>
+        <button type="submit">Add Member</button>
+      </form>
+    </section>
+    <!-- Add sections for bills, notifications, reports, etc. -->
+  </main>
+  <script type="module" src="js/admin.js"></script>
+</body>
+</html>
